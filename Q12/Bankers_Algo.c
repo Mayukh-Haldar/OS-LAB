@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#define MAX_PROCESSES 10
-#define MAX_RESOURCES 10
+#define MAX_PROCESSES 50
+#define MAX_RESOURCES 50
 
 int n, m;
 int allocation[MAX_PROCESSES][MAX_RESOURCES], max[MAX_PROCESSES][MAX_RESOURCES], need[MAX_PROCESSES][MAX_RESOURCES];
